@@ -57,10 +57,7 @@ export default function AddTattooArtist() {
             <form onSubmit={handleSubmit}>
                 <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                     
-                    {/* Duas colunas: uma para campos de senha, e outra para idade/cidade/categoria */}
                     <Box sx={{ display: 'flex', flexDirection: 'row', gap: '1rem' }}>
-                        
-                        {/* Primeira Coluna */}
                         <Box sx={{ display: 'flex', flexDirection: 'column', gap: '1rem', flex: 1 }}>
                             <TextField
                                 fullWidth
